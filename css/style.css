@@ -8,6 +8,10 @@
     src: url('../fonts/LEMONMILK-Bold.otf') format('opentype');
 }
 
+html {
+    overflow-x: hidden;
+}
+
 * {
     font-family: 'Altone', sans-serif;
     color: white;
@@ -17,13 +21,13 @@
 }
 
 .container {
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 auto; 
+    width: 80%;
+    margin: 0 auto;
 }
 
 header {
     padding: 30px;
+    width: 100%;
 }
 
 nav {
@@ -31,46 +35,36 @@ nav {
     background-color: #bebebea6;
     border-radius: 20px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 120px;
     backdrop-filter: blur(10px);
+    width: 100%;
 }
 
-nav div {
-    margin: 20px;
-}
 
 nav a {
     text-decoration: none;
     color: #000;
-    margin-right: 20px;
     padding: 20px;
+    border-radius: 20px;
+    
 }
 
 nav a:hover {
     background-color: #000;
     color: #FFF;
-    border-radius: 20px;
+
 }
 
 .nav-active {
     background-color: #000;
     color: #FFF;
-    border-radius: 20px;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-}
-
-
-main {
-    font-size: 40px;
-}
-
-.link-nav {
-    display: flex;
+    gap: 10px;
 }
 
 .main-bg {
@@ -83,9 +77,10 @@ main {
 .orbita img {
     position: absolute;
     z-index: 1;
-    margin-left: 950px;
-    bottom: 320PX;
+    margin-left: 800px;
+    bottom: 200PX;
 }
+
 
 header, main {
     position: relative;
@@ -115,14 +110,81 @@ main {
     margin: 60px;
 }
 
-.css_gradient {
-    background-color: #bebebe0e;
-    backdrop-filter: blur(7px);
-    width: 100%;
-    height: 50px;
-    margin-top: 450px;
+
+.sobre_nos_bg {
+    background-image: url(../Imagens/GradienteBackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2e2f2fdb;
 }
 
-.sobre_nos {
-    background-color: #191818;
+.sobre_nos_text {
+    flex: 1;
+    margin-left: 90px;
+}
+
+.sobre_nos_box {
+    margin-left: 60px;
+}
+
+.sobre_nos_content {
+    display: flex;
+    padding-top: 200px;
+}
+
+.sobre_nos_image {
+    width: 275px;
+    height: 438px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+.sobre_nos_title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'LEMONMILK-BOLD';
+}
+
+.sobre_nos_desc {
+    font-size: 20px;
+    width: 528px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.integrante_text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+.integrante_box {
+    margin-right: 120px;
+}
+
+.integrante_content {
+    display: flex;
+    margin-top: 95px;
+}
+
+.integrante_image {
+    width: 275px;
+    height: 303px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+.integrante_title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'LEMONMILK-BOLD';
+}
+
+.integrante_desc {
+    font-size: 20px;
+    width: 528px;
+    text-align: justify;
+    margin-top: 30px;
 }
