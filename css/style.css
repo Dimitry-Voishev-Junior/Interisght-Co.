@@ -8,6 +8,11 @@
     src: url('../fonts/LEMONMILK-Bold.otf') format('opentype');
 }
 
+body {
+    overflow-x: hidden;
+}
+
+
 html {
     overflow-x: hidden;
 }
