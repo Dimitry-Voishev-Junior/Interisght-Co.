@@ -1,7 +1,7 @@
 header,
 main {
-	position: relative;
-	z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 #home {
@@ -10,59 +10,62 @@ main {
 
 .main-bg {
     background-size: cover;
-	background-position: center;
-	background-image: url('/Imagens/ImagemBackground.png');
+    background-position: center;
+    background-image: url('/Imagens/ImagemBackground.png');
 }
 
 .estacao {
-	transform-origin: center;
-	scale: 0.9;
+    transform-origin: center;
+    scale: 0.9;
 }
 
 .orbita1 {
-	margin-left: 60%;
-	position: absolute;
-	left: 150px;
-	top: -90px;
-	z-index: 1;
-	animation: spin 10s linear infinite;
+    margin-left: 60%;
+    position: absolute;
+    left: 150px;
+    top: -90px;
+    z-index: 1;
+    animation: spin 10s linear infinite;
 }
 
 .orbita2 {
-	margin-left: 60%;
-	position: absolute;
-	left: 280px;
-	top: 30px;
-	z-index: 1;
-	animation: reverse_spin 4s linear infinite;
+    margin-left: 60%;
+    position: absolute;
+    left: 280px;
+    top: 30px;
+    z-index: 1;
+    animation: reverse_spin 4s linear infinite;
 }
 
 .planeta {
-	margin-left: 60%;
-	position: absolute;
-	left: 480px;
-	top: 240px;
-	z-index: 1; 
+    margin-left: 60%;
+    position: absolute;
+    left: 480px;
+    top: 240px;
+    z-index: 1;
 }
 
 @media (max-width: 800px) {
-    .orbita1, .orbita2, .planeta {
+
+    .orbita1,
+    .orbita2,
+    .planeta {
         display: none;
     }
 }
 
 main ul {
-	list-style: none;
+    list-style: none;
 }
 
 main ul li {
-	font-size: 50px;
-	font-family: var(--font-lemonMilk);
+    font-size: 50px;
+    font-family: var(--font-lemonMilk);
 }
 
 main {
-	margin-top: 60px;
-    
+    margin-top: 60px;
+
 }
 
 @media (max-width: 590px) {
@@ -81,7 +84,8 @@ main {
     main ul li {
         font-size: 30px;
     }
-    main ul{
+
+    main ul {
         padding: 0px;
     }
 }
@@ -108,8 +112,8 @@ main {
 }
 
 .image_animator {
-        padding-bottom: 50px;
-        scale: 1.3;
+    padding-bottom: 50px;
+    scale: 1.3;
 }
 
 .sobre_nos_title {
@@ -138,7 +142,7 @@ main {
 }
 
 .integrante_image {
-   
+
     scale: 1.5;
 }
 
@@ -192,7 +196,7 @@ main {
 
     .integrante_title {
         font-size: 35px;
-		text-align: center;
+        text-align: center;
     }
 
     .integrante_desc {
@@ -227,124 +231,130 @@ main {
 
 
 .servicos_bg {
-	position: relative;
-	padding-bottom: 100px;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .background-layer {
-	background-image: url(../Imagens/BackgroundServiços.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	filter: brightness(50%);
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: 1;
+    background-image: url(../Imagens/BackgroundServiços.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
 }
 
 .servicos_content {
-	position: relative;
-	z-index: 2;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .servicos_title,
 .servicos_desc {
-	text-align: center;
-	margin-bottom: 42px;
+    text-align: center;
+    margin-bottom: 42px;
 }
 
 .servicos_title {
-	padding-top: 50px;
-	font-size: 70px;
-	font-family: var(--font-lemonMilk);
+    padding-top: 50px;
+    font-size: 70px;
+    font-family: var(--font-lemonMilk);
 }
 
 .servicos_desc {
-	width: 911px;
+    width: 911px;
 }
 
 .servicos_area {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .servicos_box {
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
-	gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
 }
 
 .servicos_box1,
 .servicos_box2,
 .servicos_box3,
 .servicos_box4 {
-	background-color: #3c3c3cd2;
-	margin: 15px;
-	width: 442px;
-	height: 557px;
-	border-radius: 30px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+    background-color: #3c3c3cd2;
+    margin: 15px;
+    width: 442px;
+    height: 557px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .servicos_box_content {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	padding: 20px;
-	gap: 20px;
-	height: 557px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    height: 557px;
 }
 
 .box_tittle {
-	font-size: 28px;
-	text-transform: uppercase;
-	font-family: "LEMONMILK-BOLD";
-	text-align: center;
-	margin-bottom: 25px;
-	margin-top: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: "LEMONMILK-BOLD";
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .box_desc {
-	font-size: 19px;
-	text-align: center;
+    font-size: 19px;
+    text-align: center;
 }
 
-.box_image1, .box_image2,.box_image3, .box_image4 {
-	background-color: #d9d9d9;
-	width: 100%;
-	height: 166px;
-	border-radius: 100px;
-	display: flex;
-	justify-content: flex-end;
+.box_image1,
+.box_image2,
+.box_image3,
+.box_image4 {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 166px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.box_image1{
+.box_image1 {
     background-image: url(/Interisght-Co.-main/Imagens/DesenvolvimentoDeApps.jpg);
     background-size: cover;
 }
-.box_image2{
+
+.box_image2 {
     background-image: url(/Interisght-Co.-main/Imagens/GerencimanetoDeMidias.jpg);
     background-size: cover;
 }
-.box_image3{
+
+.box_image3 {
     background-image: url(/Interisght-Co.-main/Imagens/DesenvolvimentoWeb.jpg);
     background-size: cover;
 }
-.box_image4{
+
+.box_image4 {
     background-image: url(/Interisght-Co.-main/Imagens/AutomaçaoWeb.jpg);
     background-size: cover;
 }
@@ -362,11 +372,11 @@ main {
     .servicos_box4 {
         width: 100%;
         height: auto;
-        margin: 15px 0; 
+        margin: 15px 0;
     }
 
     .servicos_title {
-        font-size: 40px; 
+        font-size: 40px;
     }
 
     .servicos_desc {
@@ -426,7 +436,7 @@ main {
     .box_tittle {
         font-size: 20px;
     }
-    
+
 }
 
 
@@ -446,10 +456,37 @@ main {
         margin-bottom: 0px;
         padding: 0px 20px 0px 20px;
     }
-    
+
     .box_desc {
         font-size: 12px;
         padding: 0px 20px 0px 20px;
     }
- }
+}
+
+.box_image1,
+.box_image2,
+.box_image3,
+.box_image4 {
+    background-position: center;
+    background-size: cover;
+     
+}
+
+.box_image1 {
+    background-image: url('/Imagens/DesenvolvimentoDeApps.jpg');
+}
+
+.box_image2 {
+    background-image: url('/Imagens/GerencimanetoDeMidias.jpg');
+
+}
+
+.box_image3 {
+    background-image: url('/Imagens/DesenvolvimentoWeb.jpg');
+
+}
  
+.box_image4 {
+    background-image: url('/Imagens/AutomaçaoWeb.jpg');
+
+}
