@@ -146,7 +146,7 @@ main {
 }
 
 .integrante_image {
-
+    display: flex;
     scale: 1.5;
 }
 
@@ -196,6 +196,8 @@ main {
     .integrante_image {
         width: 100%;
         height: 300px;
+        justify-content: center;
+        align-items: center;
     }
 
     .integrante_title {
