@@ -102,6 +102,10 @@ main {
     padding-top: 200px;
 }
 
+#aboutUs .container {
+    overflow-y: hidden;
+}
+
 .sobre_nos_text {
     flex: 1;
     margin-left: 90px;
