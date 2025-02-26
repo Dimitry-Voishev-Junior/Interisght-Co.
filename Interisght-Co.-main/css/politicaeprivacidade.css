@@ -1,0 +1,12 @@
+body {
+    background: whitesmoke;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+.content {
+    background-color: #191818;
+    color: #FFFFFF;
+}

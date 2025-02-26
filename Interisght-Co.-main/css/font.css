@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Altone";
+    src: url("../fonts/Altone\ Trial-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LEMONMILK-BOLD";
+    src: url("../fonts/LEMONMILK-Bold.otf") format("opentype");
+}
+
+:root {
+    --font-altone: "Altone";
+    --font-lemonMilk: "LEMONMILK-BOLD";
+}

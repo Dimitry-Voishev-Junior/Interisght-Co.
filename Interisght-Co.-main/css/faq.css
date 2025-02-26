@@ -1,0 +1,61 @@
+#FAQ {
+    background-color: #191818;
+}
+
+.faq-title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: var(--font-lemonMilk);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.caixas_faq {
+    padding-top: 10px;
+}
+
+#FAQ .container {
+    width: 50%;
+}
+
+.faq-desc {
+    background-color: #BABABA;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 52px;
+    font-size: 18px;
+}
+
+.accordion-button.collapsed {
+    background-color: #323131;
+    color: #FFFFFF;
+}
+
+.accordion-body {
+    background-color: #323131;
+}
+
+
+.accordion-item {
+    border: transparent;
+    margin-bottom: 10px;
+}
+
+button.accordion-button::after {
+    filter: invert();
+}
+
+#FAQ .accordion-button, .accordion-body{
+    border-radius: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    #FAQ .container {
+        width: 75%;
+    }
+    
+}
