@@ -11,7 +11,7 @@ main {
 .main-bg {
     background-size: cover;
     background-position: center;
-    background-image: url('/Imagens/ImagemBackground.png');
+    background-image: url(./Imagens/ImagemBackground.png);
 }
 
 .estacao {
