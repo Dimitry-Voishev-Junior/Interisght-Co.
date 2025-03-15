@@ -11,7 +11,7 @@ main {
 .main-bg {
     background-size: cover;
     background-position: center;
-    background-image: url(./Imagens/ImagemBackground.png);
+    background-image: url(../Imagens/ImagemBackground.png);
 }
 
 .estacao {
@@ -479,20 +479,20 @@ main {
 }
 
 .box_image1 {
-    background-image: url('/Imagens/DesenvolvimentoDeApps.jpg');
+    background-image: url(../Imagens/DesenvolvimentoDeApps.jpg);
 }
 
 .box_image2 {
-    background-image: url('/Imagens/GerencimanetoDeMidias.jpg');
+    background-image: url(../Imagens/GerencimanetoDeMidias.jpg);
 
 }
 
 .box_image3 {
-    background-image: url('/Imagens/DesenvolvimentoWeb.jpg');
+    background-image: url(../Imagens/DesenvolvimentoWeb.jpg);
 
 }
  
 .box_image4 {
-    background-image: url('/Imagens/AutomaçaoWeb.jpg');
+    background-image: url(../Imagens/AutomaçaoWeb.jpg);
 
 }
